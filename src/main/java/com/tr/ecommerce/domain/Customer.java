@@ -26,6 +26,9 @@ public class Customer implements Serializable {
     @Column(name = "id")
     private Long id;
 
+    /*
+    Kullanıcı adı
+        */
     @NotNull
     @Column(name = "first_name", nullable = false)
     private String firstName;
